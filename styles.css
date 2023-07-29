@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#name {
+    text-align: center;
+    color: #63707e;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+#descripcion {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+
+}
+.enlace{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(29, 29, 223);
+}
+.enlace:hover{
+    color: rgb(1, 160, 27);
+    transition: 0,5s;
+    transition-duration: 0,5s;
+}
+table, th, td {
+    padding: 1em;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+table {
+    width: 60rem;
+    height: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5em;
+}
+h2{
+    margin: 2rem 0 1.5rem 0;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    color: #63707e;
+}
+th, td {
+    background: transparent;
+    color: rgb(0, 0, 0);
+}
+#trabajos {
+    background-image: url(https://images.unsplash.com/photo-1499744349893-0c6de53516e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80);
+    
+    background-size: contain;
+}
+#educacion {
+    width: 60rem;
+    height: 40rem;
+    background-image: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+hr {
+    border: black;
+    border-style: dotted;
+    width: 20%;
+}
+.textoTrabajo {
+    color: bisque;
+}
+#links {
+
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#chamuyo {
+    
+        text-align: center;
+        margin-bottom: 40px;
+        font-weight: bold;
+    
+    
+}
+#contenedorChamuyero {
+    text-align: center;
+        margin-bottom: 40px;
+        font-weight: bold;
+    
+}
+#habilidades {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.2rem;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    position: relative;
+    padding-left: 20px; 
+  }
+  
+  ul li::before {
+    content: "";
+    display: inline-block;
+    width: 20px; 
+    height: 20px; 
+    background-image: url(https://i0.wp.com/gretchencornwall.com/wp-content/uploads/2018/12/gold-cross-png.jpg?ssl=1);
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
